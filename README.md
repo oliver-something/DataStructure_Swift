@@ -1,6 +1,6 @@
 # Data Structures in Swift:
-
-First I have created the stack with structs, for using the code you can just add the file to your project.
+### I will add more useful algorithms to this directory, for is just Stack.
+I have created the stack with structs, for using the code you can just add the file to your project.
 
 > Using string literals for initilization :
 
