@@ -27,9 +27,9 @@ struct Stack<Element> {
         arrayList.removeLast()
     }
     
-    mutating func iterator() {
-        arrayList.forEach { item in
-            print(item)
+    func iterator() {
+        for item in arrayList {
+                print(item)
         }
     }
 }
