@@ -36,3 +36,22 @@ if let popedName = name.pop() {
   print("nil")
 }
 ```
+
+--
+### Queue: 
+> I have implemented queue with structs
+
+``` swift
+var names = Queue<String>()
+var number: Queue<Int> = [273, 345, 56, 32, 45]
+
+names.push("John")
+names.push("Steve")
+names.push("Rose")
+
+print(names)
+if let name = names.deQueue() {
+  print(name)
+} else {
+  
+}
