@@ -53,5 +53,5 @@ print(names)
 if let name = names.deQueue() {
   print(name)
 } else {
-  
+  print("Queue is empty")
 }
