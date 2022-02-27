@@ -21,12 +21,9 @@ struct Queue <Element>: ExpressibleByArrayLiteral {
     }
     
     mutating func deQueue() -> Element? {
-        if !list.isEmpty {
-            let element = list[0]
-            list.remove(at: 0)
-            return element
-        }
-        return nil
+        let element = list.first
+        list.removeFirst()
+        return element
     }
     
     init() {
